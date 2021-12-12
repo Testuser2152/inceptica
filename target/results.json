@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3435800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Before(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Automate Job search functionality scenario",
+        "description": "",
+        "id": "automate-job-search-functionality-scenario-(with-more-search-option);automate-job-search-functionality-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 679686500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.After(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9146769900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Cv libraray site",
+            "match": {
+              "location": "StepDefinition.user_is_on_cv_libraray_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2720441000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User provides the Job details",
+            "match": {
+              "location": "StepDefinition.user_provides_the_job_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 215301900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on FindJobs",
+            "match": {
+              "location": "StepDefinition.click_on_findjobs()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@jobSearch"
+          }
+        ]
+      }
+    ],
+    "name": "Automate Job search functionality scenario (with More search option)",
+    "description": "",
+    "id": "automate-job-search-functionality-scenario-(with-more-search-option)",
+    "keyword": "Feature",
+    "uri": "JobSearch.feature"
+  }
+]
